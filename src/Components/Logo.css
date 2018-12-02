@@ -1,0 +1,18 @@
+
+
+div h1 {
+	font-family: "Patua One";
+	font-size: 150px;
+	text-align: center;
+	color: #ecf0f1; 
+	margin-top:100px; 
+}
+
+@media ( max-width: 480px ) {
+	div h1 {
+		justify-content: space-between;
+		font-size: 120px;
+		margin-top: 50px; 
+	}
+}
+

@@ -1,32 +1,130 @@
+
+* {
+	
+}
+
+
+/* CABEÇALHO */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font: 12px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Banner1 {
+	background-color: #2ecc71;
+	height: 650px;
+}
+
+
+/* CORPO DO PROJETO */
+
+.subt1 {
+  margin: 50px;
+  justify-content: flex-end;
+  color: #34495e;
+  font-size: 50px;
+  padding-top: 1em;
+  padding-bottom: 0,2em; 
+  font-family: 'Pacifico'; 
+}
+
+.QuemSomos {
+  display: flex;
+}
+
+.qs {
+  margin: 5%;
+  width: 600px;
+  height: 200px;
+}
+
+.qs-txt {
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+/* Galeria */
+
+.Banner2 {
+  background-color: #34495e;
+  height: 650px;
+}
+
+.subt2 {
+  margin: 50px;
+  justify-content: flex-end;
+  color: #7f8fa6;
+  font-size: 50px;
+  padding-top: 1em;
+  padding-bottom: 0,2em; 
+  font-family: 'Pacifico'; 
+}
+
+
+.Cards {
+  display: flex;
+  margin: 10%;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+
+
+
+@media (max-width: 953px) {
+  .qs-txt {
+    font-size: 23px;
+    margin: 5%
   }
-  to {
-    transform: rotate(360deg);
+} 
+
+@media (max-width: 900px) {
+  .QuemSomos {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .qs-txt {
+    font-size: 25px;
+    margin: 5%
   }
 }
+
+@media (max-width: 850px) {
+  .Cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Banner2 {
+    height: 120em;
+  }
+}
+
+@media (max-width: 627px ) {
+  .qs-txt {
+    font-size: 18px;
+    text-align: center;
+    margin: 5%
+  }
+}
+
+@media (max-width: 480px ) {
+	.Banner1 {
+		flex-direction: column;
+	}
+
+  .subt1 {
+    text-align: center;
+  }
+}
+

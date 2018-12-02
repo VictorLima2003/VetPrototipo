@@ -1,0 +1,45 @@
+.textao {
+	display: flex;
+	justify-content: center;
+}
+
+.frase {
+	font-size: 50px;
+	font-family: 'Patua One';
+	color: #34495e;
+	padding-right: 10px;
+}
+
+.myState {
+	font-size: 50px;
+	font-family: 'Patua One';
+	color: #ffffff; 
+}
+
+
+@media ( max-width: 900px ) {
+	.frase {
+		font-size: 40px;
+	}
+
+	.myState {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.textao {
+		flex-direction: column;
+		align-items: center;
+	}	
+}
+
+@media (max-width:600px ) {
+	.frase {
+		font-size: 30px;
+	}
+
+	.myState {
+		font-size: 30px;
+	}
+}
