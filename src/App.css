@@ -76,7 +76,26 @@
   justify-content: center;
 }
 
+.maps {
+  width: 500px;
+  height: 400px;
+  margin: 10px;
+}
 
+.Mapas {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.map-1 {
+  text-align: center;
+  align-items: center;
+}
+
+.Label2 {
+  font-size: 20px;
+}
 
 
 @media (max-width: 953px) {

@@ -7,7 +7,7 @@ import Logo from './Components/Logo';
 import Texto from './Components/Texto';
 import Card from './Components/Card';
 import Item from './Components/Item';
-import Imagem from './Components/Imagem';
+
 
 class App extends React.Component {
   render() {
@@ -67,10 +67,16 @@ class App extends React.Component {
 
 
 
+        <h3 className="subt1">Clinicas</h3>
+        <div className="Mapas">
+          <div className="map-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.763958547689!2d-40.307877685610535!3d-12.531790154523295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x76abe1f075f6183%3A0x5b2fc3a6e4b7c225!2sProbicho!5e0!3m2!1spt-BR!2sbr!4v1543786605918" className="maps"></iframe>
+            <h3 className="Label2">Itaberaba-BA ( Google Maps )</h3>
+          </div>
 
-        <div>
-          <div>
-            <Imagem local=""/>
+          <div className="map-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.8171309203276!2d-40.312651885610656!3d-12.528270554454139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x76a95ff337e7317%3A0x48340925b633dbb!2sClinica+veterin%C3%A1ria+ANIMED!5e0!3m2!1spt-BR!2sbr!4v1543790485471" className="maps"></iframe>
+            <h3 className="Label2">Itaberaba-BA ( Google Maps )</h3>
           </div>
         </div>	
 
