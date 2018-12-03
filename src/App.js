@@ -30,7 +30,8 @@ class App extends React.Component {
         {/* Parte Branca (CONTEÚDO) */}
         <div className="Conteudo">
 
-            <h3 className="subt1">Quem Somos?</h3>
+              <h3 className="subt1">Quem Somos?</h3>
+              <div className="border"/>
 
               
             <div className="QuemSomos">
@@ -56,18 +57,20 @@ class App extends React.Component {
   			<div>
           <div className="Banner2">
             <h3 className="subt2"> Planos</h3>
-              <div className="Cards">
-                <Card valor="R$15,00" tipo="Mensal"/>
-                <Card valor="R$25,00" tipo="Mensal"/>
-                <Card valor="R$40,00" tipo="Mensal"/>
-                <Card valor="R$80,00" tipo="Mensal"/>
-              </div>       
-          </div>
-  			</div>
+               <div className="border"/>
+                <div className="Cards">
+                  <Card valor="R$15,00" tipo="Mensal"/>
+                  <Card valor="R$25,00" tipo="Mensal"/>
+                  <Card valor="R$40,00" tipo="Mensal"/>
+                  <Card valor="R$80,00" tipo="Mensal"/>
+                </div>       
+            </div>
+  			 </div>
 
 
 
         <h3 className="subt1">Clinicas</h3>
+        <div className="border"/>
         <div className="Mapas">
           <div className="map-1">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.763958547689!2d-40.307877685610535!3d-12.531790154523295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x76abe1f075f6183%3A0x5b2fc3a6e4b7c225!2sProbicho!5e0!3m2!1spt-BR!2sbr!4v1543786605918" className="maps"></iframe>
@@ -79,6 +82,9 @@ class App extends React.Component {
             <h3 className="Label2">Itaberaba-BA ( Google Maps )</h3>
           </div>
         </div>	
+
+
+        
 
 
       </div>

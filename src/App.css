@@ -27,13 +27,25 @@
 /* CORPO DO PROJETO */
 
 .subt1 {
-  margin: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
   justify-content: flex-end;
   color: #34495e;
   font-size: 50px;
   padding-top: 1em;
   padding-bottom: 0,2em; 
   font-family: 'Pacifico'; 
+}
+
+.border {
+  background-color: #2ecc71;
+  margin-top: 5px;
+  justify-content: flex-end;
+  width: 250px;
+  height: 5px;
+  padding-bottom: 0,2em; 
+  margin-left: 50px;
 }
 
 .QuemSomos {
@@ -59,7 +71,9 @@
 }
 
 .subt2 {
-  margin: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   justify-content: flex-end;
   color: #7f8fa6;
   font-size: 50px;
@@ -95,8 +109,22 @@
 
 .Label2 {
   font-size: 20px;
+  font-family: "Patua One";
 }
 
+@media ( max-width: 1041px ) {
+  .maps {
+    width: 450px;
+    height: 350px;
+  }
+}
+
+@media ( max-width: 946px ) {
+  .maps {
+    width: 400px;
+    height: 300px;
+  }
+}
 
 @media (max-width: 953px) {
   .qs-txt {
@@ -121,11 +149,20 @@
 @media (max-width: 850px) {
   .Cards {
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
   }
 
   .Banner2 {
     height: 120em;
+  }
+
+  .maps {
+    width: 500px;
+    height: 400px;
+  }
+
+  .Mapas {
+    flex-direction: column;
   }
 }
 
